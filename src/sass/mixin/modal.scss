@@ -1,0 +1,82 @@
+@import "../font.scss";
+@import "../variable.scss";
+@import "../mixin/mixin.scss";
+
+.modal-contaiter {
+  width: 100%;
+  overflow: auto;
+
+  .modal-content {
+    width: 90%;
+    max-width: 580px;
+    height: 350px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    border: 4px solid #231f20;
+    background: #e8e8e8;
+  }
+
+  .modal__header {
+    position: relative;
+    padding: 0 60px;
+    border-bottom: 4px solid #252525;
+    text-transform: uppercase;
+    font-family: $font-bebasNeue;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.2;
+
+
+    .close-btn {
+      background: none;
+      border: 0;
+
+      &:before {
+        content: 'X';
+        position: absolute;
+        right: 0;
+        margin: 10px;
+        padding: 0 14px;
+        font-size: 0.6em;
+        top: 0;
+        border-radius: 5px;
+        background: $close;
+        color: $base-btn-color;
+      }
+    }
+  }
+
+  .review-modal {
+    .modal__header {
+      background: $review_modal;
+    }
+
+    .modal__body {
+      text-transform: uppercase;
+      font-size: 5em;
+      letter-spacing: 0.1em;
+    }
+  }
+
+  .hint-modal {
+    .modal__header {
+      background: $hint-modal;
+    }
+  }
+
+  .modal__body {
+    padding: 5% 13%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    justify-content: center;
+  }
+}

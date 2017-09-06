@@ -1,0 +1,61 @@
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 12px; } }
+
+@media only screen and (min-width: 580px) {
+  body {
+    font-size: 13px; }
+  .guess-emotion ul {
+    list-style: none;
+    padding: 0; }
+  .guess-emotion .emotion__item {
+    width: calc(90% / 2); }
+  .guess-message .message__line {
+    font-size: 8em; } }
+
+@media only screen and (min-width: 767px) {
+  body {
+    font-size: 14px; }
+  .draw__area {
+    max-width: 390px;
+    height: 390px; }
+  .draw-guess .draw__area {
+    max-width: 390px;
+    height: 390px; }
+  .tries-left ul {
+    text-align: left; }
+  .tries-left .tries-left__item p {
+    font-size: 5em; }
+  .tries-left .tries-left__item:not(:first-child) {
+    width: 60px;
+    height: 60px; }
+    .tries-left .tries-left__item:not(:first-child).tries-left__subtract {
+      background-position: 0 84%; }
+  .guess-message .message__line {
+    font-size: 11em; } }
+
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 15px; }
+  .draw__area {
+    max-width: 500px;
+    height: 450px;
+    margin: 0;
+    padding: 25px 50px; }
+  .draw-guess .draw__area {
+    max-width: 500px;
+    height: 450px; }
+  .wrapper-front {
+    padding: 4% 6%; } }
+
+@media only screen and (min-width: 1150px) {
+  .wrapper-front {
+    padding: 4% 4%; } }
+
+@media only screen and (min-width: 1250px) {
+  .draw__option {
+    left: 0;
+    position: absolute;
+    max-width: 300px;
+    margin-left: -20px;
+    top: 150px; } }

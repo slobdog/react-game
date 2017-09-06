@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'BebasNeue Bold';
+  src: url("../fonts/BebasNeue Bold.otf"); }
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif; }
+
+.font-quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold; }
+
+.font-bebasNeue {
+  font-family: "BebasNeue Bold"; }
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif; }
+
+.font-quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold; }
+
+.font-bebasNeue {
+  font-family: "BebasNeue Bold"; }

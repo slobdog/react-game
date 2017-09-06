@@ -1,0 +1,11 @@
+.wrapper {
+  width: 90%;
+  max-width: 2000px;
+  padding: 4% 20px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  margin: auto;
+  display: block; }
+  .wrapper.wrapper-draw {
+    width: 100%;
+    padding: 4% 0; }

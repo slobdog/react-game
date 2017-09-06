@@ -1,0 +1,86 @@
+@import "./mixin.scss";
+@import "../variable.scss";
+@import "../font.scss";
+
+.base-btn {
+  color: $base-btn-color;
+  @include border-radius(10px);
+  @include transition(all ease 0.2s);
+  @include box-shadow-button($def-btn);
+  font-family: $font-bebasNeue;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  font-size: 3.5em;
+  border: 0;
+  outline: none;
+
+  &:hover {
+    color: #f2fbce;
+  }
+
+  &:focus, &hover, &:active:focus {
+    outline: none;
+    box-shadow: 0 3px 0 0;
+  }
+
+  &.content-btn {
+    padding: 0 1.5em;
+    text-align: center;
+  }
+
+  &.def-btn {
+    background-color: $def-btn;
+    @include box-shadow-button(#221f20);
+  }
+
+  &.new-game-btn {
+    background-color: $new-game;
+    @include box-shadow-button(#00795a);
+    font-size: 4.3em;
+  }
+
+  &.end-game-btn {
+    padding: 0 0.7em;
+    font-size: 2.2em;
+    background-color: $end-game;
+    @include box-shadow-button(#B42D2C);
+    position: relative;
+    z-index: 10;
+  }
+
+  &.how-to-play-btn {
+    background-color: $how-to-play;
+    @include box-shadow-button(#b95000);
+  }
+
+  &.back-btn {
+    background-color: $back;
+    @include box-shadow-button(#221f20);
+    padding: 0 15px;
+  }
+
+  &.start-btn {
+    background-color: $start;
+    @include box-shadow-button(#83b841);
+  }
+}
+
+.secondary-btn {
+  width: 70px;
+  height: 70px;
+
+  &.btn-review {
+    background: url("../images/start-over.png")  no-repeat;
+    background-size: 93%;
+  }
+
+  &.btn-start-over {
+    background: url("../images/start-over.png")  no-repeat;
+    background-size: 93%;
+  }
+
+  &.btn-done {
+    background: url("../images/done.png")  no-repeat;
+    background-size: 93%;
+  }
+}

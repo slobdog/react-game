@@ -1,0 +1,94 @@
+/*btn color*/
+/*option emotion color*/
+/*modal header color*/
+/*message color*/
+@font-face {
+  font-family: 'BebasNeue Bold';
+  src: url("../fonts/BebasNeue Bold.otf"); }
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif; }
+
+.font-quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold; }
+
+.font-bebasNeue {
+  font-family: "BebasNeue Bold"; }
+
+.base-btn {
+  color: #f2fbce;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  -webkit-box-shadow: 0 12px 0 0 #535252;
+  -moz-box-shadow: 0 12px 0 0 #535252;
+  box-shadow: 0 12px 0 0 #535252;
+  font-family: "BebasNeue Bold";
+  margin-bottom: 30px;
+  padding: 0 20px;
+  font-size: 3.5em;
+  border: 0;
+  outline: none; }
+  .base-btn:hover {
+    color: #f2fbce; }
+  .base-btn:focus, .base-btnhover, .base-btn:active:focus {
+    outline: none;
+    box-shadow: 0 3px 0 0; }
+  .base-btn.content-btn {
+    padding: 0 1.5em;
+    text-align: center; }
+  .base-btn.def-btn {
+    background-color: #535252;
+    -webkit-box-shadow: 0 12px 0 0 #221f20;
+    -moz-box-shadow: 0 12px 0 0 #221f20;
+    box-shadow: 0 12px 0 0 #221f20; }
+  .base-btn.new-game-btn {
+    background-color: #00c196;
+    -webkit-box-shadow: 0 12px 0 0 #00795a;
+    -moz-box-shadow: 0 12px 0 0 #00795a;
+    box-shadow: 0 12px 0 0 #00795a;
+    font-size: 4.3em; }
+  .base-btn.end-game-btn {
+    padding: 0 0.7em;
+    font-size: 2.2em;
+    background-color: #eb3736;
+    -webkit-box-shadow: 0 12px 0 0 #B42D2C;
+    -moz-box-shadow: 0 12px 0 0 #B42D2C;
+    box-shadow: 0 12px 0 0 #B42D2C;
+    position: relative;
+    z-index: 10; }
+  .base-btn.how-to-play-btn {
+    background-color: #f56c00;
+    -webkit-box-shadow: 0 12px 0 0 #b95000;
+    -moz-box-shadow: 0 12px 0 0 #b95000;
+    box-shadow: 0 12px 0 0 #b95000; }
+  .base-btn.back-btn {
+    background-color: #535252;
+    -webkit-box-shadow: 0 12px 0 0 #221f20;
+    -moz-box-shadow: 0 12px 0 0 #221f20;
+    box-shadow: 0 12px 0 0 #221f20;
+    padding: 0 15px; }
+  .base-btn.start-btn {
+    background-color: #abd14c;
+    -webkit-box-shadow: 0 12px 0 0 #83b841;
+    -moz-box-shadow: 0 12px 0 0 #83b841;
+    box-shadow: 0 12px 0 0 #83b841; }
+
+.secondary-btn {
+  width: 70px;
+  height: 70px; }
+  .secondary-btn.btn-review {
+    background: url("../images/start-over.png") no-repeat;
+    background-size: 93%; }
+  .secondary-btn.btn-start-over {
+    background: url("../images/start-over.png") no-repeat;
+    background-size: 93%; }
+  .secondary-btn.btn-done {
+    background: url("../images/done.png") no-repeat;
+    background-size: 93%; }

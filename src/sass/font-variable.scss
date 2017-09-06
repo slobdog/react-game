@@ -1,0 +1,17 @@
+@import "font.scss";
+
+$font-quicksand: 'Quicksand', sans-serif;
+$font-bebasNeue: 'BebasNeue Bold';
+
+.font-quicksand {
+  font-family: $font-quicksand;
+}
+
+.font-quicksand-bold {
+  font-family: $font-quicksand;
+  font-weight: bold;
+}
+
+.font-bebasNeue {
+  font-family: $font-bebasNeue;
+}

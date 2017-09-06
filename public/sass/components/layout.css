@@ -1,0 +1,370 @@
+@font-face {
+  font-family: 'BebasNeue Bold';
+  src: url("../fonts/BebasNeue Bold.otf"); }
+
+.font-quicksand {
+  font-family: "Quicksand", sans-serif; }
+
+.font-quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold; }
+
+.font-bebasNeue {
+  font-family: "BebasNeue Bold"; }
+
+/*btn color*/
+/*option emotion color*/
+/*modal header color*/
+/*message color*/
+.wrapper-front {
+  padding: 4% 10%; }
+
+.front-bg {
+  position: absolute;
+  background: url("../images/title-crane_2.png") no-repeat bottom center;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-size: auto 90%;
+  right: 0;
+  left: 0; }
+
+header {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  background: #f56c00;
+  padding: 10px 0; }
+  header h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold; }
+
+.rules {
+  padding-left: 0;
+  margin-top: 20px; }
+  .rules .rules__item {
+    list-style: none;
+    margin-bottom: 10px; }
+  .rules .rules__img {
+    max-width: 50px;
+    position: absolute; }
+  .rules .rules__description {
+    position: relative;
+    padding-left: 60px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 10px 0; }
+
+.description {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold; }
+  .description .description__text {
+    text-align: left;
+    font-size: 1.9em; }
+    .description .description__text p {
+      margin: 0; }
+  .description .description__team {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #000;
+    font-family: "BebasNeue Bold";
+    margin-bottom: 100px; }
+
+.descripton__task {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.7em;
+  color: #144c5f; }
+
+.content .content__buttons {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px; }
+
+.look-emotion {
+  min-height: 100px;
+  font-family: "BebasNeue Bold";
+  font-size: 4em;
+  color: #5b6b75;
+  background-color: #f0f1e2;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  max-width: 489px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px; }
+  .look-emotion.look__show {
+    background: #fff;
+    border: 7px solid #CCCCCC; }
+
+.draw {
+  position: relative; }
+  .draw > div {
+    margin-bottom: 60px; }
+
+.draw__option {
+  width: 45%;
+  max-width: 213px;
+  margin-left: -15px;
+  position: absolute;
+  z-index: 2; }
+  .draw__option [data-type-emotion="eyebrows"] {
+    background: #d9e026; }
+    .draw__option [data-type-emotion="eyebrows"] .option__dropdown {
+      background: #d9e026; }
+  .draw__option [data-type-emotion="eyes"] {
+    background: #d44940; }
+    .draw__option [data-type-emotion="eyes"] .option__dropdown {
+      background: #d44940; }
+  .draw__option [data-type-emotion="mouths"] {
+    background: #36adc9; }
+    .draw__option [data-type-emotion="mouths"] .option__dropdown {
+      background: #36adc9; }
+  .draw__option [data-type-emotion="moods"] {
+    background: #d9e026; }
+    .draw__option [data-type-emotion="moods"] .option__dropdown {
+      background: #d9e026; }
+  .draw__option ul {
+    padding-left: 0; }
+  .draw__option .option__dropdown {
+    max-width: 200px;
+    min-width: 150px;
+    width: 100%;
+    position: absolute;
+    left: 100%;
+    display: none;
+    top: -20px;
+    background: red;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 15px; }
+    .draw__option .option__dropdown ul {
+      padding: 0 10px;
+      min-height: 100px;
+      overflow: auto;
+      max-height: 315px; }
+      .draw__option .option__dropdown ul::-webkit-scrollbar {
+        -webkit-appearance: none; }
+      .draw__option .option__dropdown ul::-webkit-scrollbar:vertical {
+        width: 11px; }
+      .draw__option .option__dropdown ul::-webkit-scrollbar:horizontal {
+        height: 11px; }
+      .draw__option .option__dropdown ul::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid white;
+        /* should match background, can't be transparent */
+        background-color: rgba(0, 0, 0, 0.5); }
+    .draw__option .option__dropdown li {
+      width: 100%;
+      min-height: 60px;
+      background: #fff;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      list-style: none;
+      padding: 5px; }
+      .draw__option .option__dropdown li img {
+        max-width: 80%;
+        padding: 12px 0; }
+    .draw__option .option__dropdown button {
+      margin: 10px; }
+  .draw__option .option__item {
+    list-style: none;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold; }
+    .draw__option .option__item.active {
+      width: 105%; }
+      .draw__option .option__item.active .option__dropdown {
+        display: block; }
+  .draw__option .option__field {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 145px; }
+  .draw__option .option__img {
+    max-width: 50px;
+    margin: 5px auto; }
+
+.draw__area {
+  position: relative;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 340px;
+  height: 340px;
+  border: dashed 5px #fbaa19;
+  background: #fff;
+  background-size: cover;
+  padding: 25px;
+  margin: 0 auto; }
+  .draw__area .area__base {
+    background: url("../images/base.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 54px;
+    position: relative; }
+  .draw__area .base__element {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0; }
+  .draw__area .area__eyebrows {
+    top: 0;
+    background-position: center 15%;
+    background-size: 80%;
+    background-repeat: no-repeat; }
+    .draw__area .area__eyebrows[data-type-emotion-select="type-emotion"] {
+      background-image: url("../images/eyebrows/parts-39.png"); }
+  .draw__area .area__mood-shading {
+    top: 0;
+    background-position: center 0;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .draw__area .area__mood-shading[data-type-emotion-select="type-emotion"] {
+      background-image: url("../images/mood/parts-29.png"); }
+  .draw__area .area__eyes {
+    top: 0;
+    background-position: center 40%;
+    background-size: 80%;
+    background-repeat: no-repeat; }
+    .draw__area .area__eyes[data-type-emotion-select="type-emotion"] {
+      background-image: url("../images/eyes/parts-52.png"); }
+  .draw__area .area__mouth {
+    top: 0;
+    background-position: center 42px;
+    background-size: 90%;
+    background-repeat: no-repeat; }
+    .draw__area .area__mouth[data-type-emotion-select="type-emotion"] {
+      background-image: url("../images/mouth/parts-02.png"); }
+  .draw__area .control-buttons {
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%; }
+    .draw__area .control-buttons ul {
+      padding: 0; }
+    .draw__area .control-buttons li {
+      display: inline-block;
+      list-style: none; }
+
+.game-play {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.tries-left ul {
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+.tries-left .tries-left__item {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "BebasNeue Bold";
+  text-transform: uppercase; }
+  .tries-left .tries-left__item p {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    line-height: normal; }
+  .tries-left .tries-left__item:not(:first-child) {
+    background: url("../images/sprite-x.png") no-repeat;
+    background-position: center 13%;
+    background-size: cover;
+    width: 42px;
+    height: 42px; }
+    .tries-left .tries-left__item:not(:first-child).tries-left__subtract {
+      background-position: 10% 84%; }
+
+.guess-emotion ul {
+  list-style: none;
+  padding: 0; }
+
+.guess-emotion .emotion__item {
+  display: inline-block;
+  width: 100%;
+  margin: 8px;
+  text-align: center;
+  background: #F0F1E2;
+  border: 5px solid #FFB808;
+  padding: 1%;
+  line-height: 1.2;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px; }
+  .guess-emotion .emotion__item.emotion__error {
+    background: #D44940; }
+  .guess-emotion .emotion__item.emotion__correct {
+    background: #ABD14C; }
+
+.draw-guess .draw__area {
+  margin: 0 auto;
+  border: 0;
+  max-width: 300px;
+  height: 300px; }
+
+.guess-message {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto; }
+  .guess-message .message__line {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: calc(100% / 2 - 90px);
+    padding: 3% 1% 1% 1%;
+    font-size: 6em;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "BebasNeue Bold";
+    font-weight: bold; }
+  .guess-message p {
+    margin: 0; }
+  .guess-message.message__error .message__line {
+    background: rgba(215, 77, 77, 0.85);
+    text-shadow: -5px -5px 0 #9F2D2A, -5px 0 0 #9F2D2A, 5px -5px 0 #9F2D2A, -5px 5px 0 #9F2D2A, 5px 5px 0 #9F2D2A; }
+  .guess-message.message__correct .message__line {
+    background: rgba(252, 196, 94, 0.85);
+    text-shadow: -5px -5px 0 #FBAA19, -5px 0 0 #FBAA19, 5px -5px 0 #FBAA19, -5px 5px 0 #FBAA19, 5px 5px 0 #FBAA19; }
+  .guess-message.message__correct:before {
+    content: ' ';
+    position: absolute;
+    background: url("../images/confetti.png") no-repeat center;
+    display: inline-block;
+    height: 100%;
+    width: 100%; }
